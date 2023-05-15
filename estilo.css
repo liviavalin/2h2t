@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.red{
+    width: 6.25%;
+    height: 100%;
+    background-color: red;
+}
+.green{
+    width: 6.25%;
+    height: 100%;
+    background-color: green;
+}
+.blue{
+    width: 6.25%;
+    height: 100%;
+    background-color: blue;
+}
+.linha{
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
