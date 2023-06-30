@@ -1,0 +1,45 @@
+.preto{
+  height: 40vh;
+    background-color: black;
+    grid-area: p;
+    color: azure;
+}
+.rosa{
+   
+    background-color: pink;
+    grid-area: r;
+    height: 20vh;
+}
+.azul{
+   
+    background-color:blue;
+    grid-area: a;
+    height: 40vh;
+}
+.cinza{
+   
+    background-color: gray;
+    grid-area: c;
+    height: 40vh;
+}
+.verde{
+  
+    background-color: green;
+    grid-area: v;
+    height: 20vh;
+}
+.vermelho{
+  
+    background-color: red;
+    grid-area: m;
+    height: 20vh ;
+}
+.site{
+display: grid;
+grid-template-columns: 10% 70% 20%;
+grid-template-areas: 
+"r r r" 
+"a c v"
+"a c m"
+"p p p";
+}

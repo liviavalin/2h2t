@@ -2,23 +2,30 @@
     margin: 0;
     padding: 0;
 }
-.red{
-    width: 6.25%;
-    height: 100%;
-    background-color: red;
+.menu{
+width: 100%;
+height: 60px;
+background-color: rgb(62, 71, 53);
+color: blanchedalmond;
+font-size: 30px;
+text-align: center;
 }
-.green{
-    width: 6.25%;
-    height: 100%;
-    background-color: green;
+.conteudo_narco{
+    width: 100px;
 }
-.blue{
-    width: 6.25%;
-    height: 100%;
-    background-color: blue;
-}
-.linha{
+.rodape{
     width: 100%;
-    height: 10%;
-    display: flex;
+    text-align: center;
+}
+@media screen and (min-width:768px){
+    .menu{
+        height: 100px;
+        background-color: mediumpurple;
+        color: navy;
+        font-size: 64px;
+        text-align: center;
+    }
+    .conteudo_narco{
+        display: flex;
+}
 }
