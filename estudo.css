@@ -15,9 +15,10 @@
     background-color:blue;
     grid-area: a;
     height: 40vh;
+    color: azure;
 }
 .cinza{
-   
+
     background-color: gray;
     grid-area: c;
     height: 40vh;
